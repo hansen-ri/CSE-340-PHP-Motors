@@ -1,0 +1,24 @@
+body {
+    background-image: url("/phpmotors/images/site/checkerboard.jpg");
+    
+    /* align-items: center; */
+    background-size: contain;
+    overflow: scroll;   /* change background image scale */
+}
+
+#content {
+    width: 85vw;
+    border: 3px solid #4c96d7;
+    border-radius: 10px;
+    background-color: white;
+    margin: auto;
+}
+
+hr {
+    height: 5px;
+    width: 100%;
+    background-color: #8d8d8d;
+    border: none;
+    margin-right: auto;
+    margin-left: auto;
+}
