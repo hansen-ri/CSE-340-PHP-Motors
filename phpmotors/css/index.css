@@ -1,9 +1,9 @@
 body {
-    background-image: url("/phpmotors/images/site/checkerboard.jpg");
+    background-image: url("/phpmotors/images/site/small_check.jpg");
     
     /* align-items: center; */
     background-size: contain;
-    overflow: scroll;   /* change background image scale */
+    overflow: scroll;   /* change background image scale, https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Resizing_background_images */
 }
 
 #content {

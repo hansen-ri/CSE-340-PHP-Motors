@@ -25,7 +25,7 @@ li a:hover:not(.active) {
     transform: scale(1.25);
 }
 .active {
-    background-color: #4c96d7;
+    background-color: #69A7DD;
     color: #3a3a3a;
 }
 button {
@@ -33,7 +33,7 @@ button {
     right: 10%;
     top: 40px;
     border: none;
-    color: #8d8d8d;
+    color: #3a3a3a;
     background-color: white;
     font-size: large;
 }
