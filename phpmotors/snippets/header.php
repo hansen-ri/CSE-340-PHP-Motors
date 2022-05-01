@@ -1,11 +1,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fugaz+One&family=Goldman&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/phpmotors/css/header.css">
 <div>
-    <a href="/phpmotors/home.php"><img src="/phpmotors/images/site/logo.png" alt=""></a>
-    <button>My Account</button>
+    <a href="/phpmotors/home.php"><img src="/phpmotors/images/site/logo.png" alt="logo_img" id="logo_img"></a>
+    <button id="account_btn">My Account</button>
 </div>
 <nav>
-    <ul>
+    <ul id="header_ul">
         <li><a class="active" href="">Home</a></li>
         <li><a href="">Classic</a></li>
         <li><a href="">Sports</a></li>

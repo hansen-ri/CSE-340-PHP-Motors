@@ -4,6 +4,11 @@ body {
     /* align-items: center; */
     background-size: contain;
     overflow: scroll;   /* change background image scale, https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Resizing_background_images */
+    font-family: 'Goldman', cursive;
+}
+
+main {
+    margin: 20px;
 }
 
 #content {
@@ -14,6 +19,172 @@ body {
     margin: auto;
 }
 
+#logo_img {
+    border-top-left-radius: 10px;
+}
+
+#header_ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3a3a3a;
+}
+
+#header_ul > li {
+    float: left;
+    font-family: 'Goldman', cursive;
+}
+
+#header_ul > li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Goldman', cursive;
+}
+
+#header_ul > li a:hover:not(.active) {
+    background-color: #8d8d8d;
+    transform: scale(1.15);
+}
+
+.active:hover {
+    /* background-color: #8d8d8d; */
+    transform: scale(1.15);
+}
+
+.active {
+    background-color: #378AD2;
+    color: #3a3a3a;
+}
+
+#account_btn {
+    position: absolute;
+    right: 10%;
+    top: 40px;
+    border: none;
+    color: #3a3a3a;
+    background-color: white;
+    font-size: large;
+    font-family: 'Goldman', cursive;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+#car_info {
+    position: absolute;
+    z-index: 1;
+    color: #378AD2;
+    padding-left: 40px;
+    /* top: 10%;
+    right: 10%; */
+}
+
+#car_info ul {
+    padding: 0;
+}
+
+#car_info li {
+    list-style-type: none;
+    line-height: 150%;
+}
+
+#own_today_btn {
+    /* position: absolute;
+    /* z-index: 1; */
+    right: 82%;
+    top: 47%; 
+    width: 146px;
+    height: auto;
+} 
+
+#hero_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    right: auto;
+    top: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+#own_today_btn2 {
+    display: none;
+}
+
+#flex_div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+#reviews {
+    min-width: 415px;
+    /* font-family: 'Bebas Neue', cursive; */
+    line-height: 250%;
+}
+
+#upgrades {
+    flex-grow: 1;
+}
+
+#grid_div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr;
+    gap: 15px;
+}
+
+#grid_div > h3 {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+}
+
+#upgrade-option1 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+#upgrade-option2 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+#upgrade-option3 {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+#upgrade-option1 {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+
+.upgrade_option {
+    background-color: #378AD2;
+    text-align: center;
+    border: 2px solid #3a3a3a;
+    min-height: 101px;
+    min-width: 101px;
+    max-width: 350px;
+    text-align: center;
+}
+
+.upgrade_option img {
+    margin-top: 10px;
+}
+
 hr {
     height: 5px;
     width: 100%;
@@ -21,4 +192,58 @@ hr {
     border: none;
     margin-right: auto;
     margin-left: auto;
+}
+
+#footer_div {
+    margin: auto;
+    align-content: center;
+}
+
+#footer_div p {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 14px;
+    color: #3a3a3a;
+    line-height: 75%;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 900px) {
+    #own_today_btn {
+        display: none;
+    }
+    #own_today_btn2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+    #flex_div {
+        justify-content: flex-end;
+    }
+    #car_info {
+        font-size: small;
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #header_ul li {
+        float: none;
+    }
+    main {
+        margin: 10px;
+    }
+    #car_info {
+        font-size: x-small;
+        padding: 0;
+    }
+    #reviews {
+        min-width: 350px;
+        line-height: 200%;
+    }
+    #own_today_btn2 {
+        width: 180px;
+        height: auto;
+    }
 }
