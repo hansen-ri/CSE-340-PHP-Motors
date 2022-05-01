@@ -23,6 +23,11 @@ main {
     border-top-left-radius: 10px;
 }
 
+.active {
+    background-color: #2A75B7;
+    color: #3a3a3a;
+}
+
 #header_ul {
     list-style-type: none;
     margin: 0;
@@ -55,11 +60,6 @@ main {
     transform: scale(1.15);
 }
 
-.active {
-    background-color: #378AD2;
-    color: #3a3a3a;
-}
-
 #account_btn {
     position: absolute;
     right: 10%;
@@ -82,7 +82,7 @@ h3 {
 #car_info {
     position: absolute;
     z-index: 1;
-    color: #378AD2;
+    color: #2A75B7;
     padding-left: 40px;
     /* top: 10%;
     right: 10%; */

@@ -51,7 +51,7 @@
                                 <img src="/phpmotors/images/upgrades/flux-cap.png" alt="Flux Capacitor">
                             </div>
                             <a href="#">
-                                <p id="upgrade_link">Flux Capacitor</p>
+                                <p>Flux Capacitor</p>
                             </a>
                         </div>
                         <div id="upgrade_option2">
@@ -59,7 +59,7 @@
                                 <img src="/phpmotors/images/upgrades/flame.jpg" alt="Flame Decals">
                             </div>
                             <a href="#">
-                                <p id="upgrade_link">Flame Decals</p>
+                                <p>Flame Decals</p>
                             </a>
                         </div>
                         <div id="upgrade_option3">
@@ -67,7 +67,7 @@
                                 <img src="/phpmotors/images/upgrades/bumper_sticker.jpg" alt="Bumper Sticker">
                             </div>
                             <a href="#">
-                                <p id="upgrade_link">Bumper Stickers</p>
+                                <p>Bumper Stickers</p>
                             </a>
                         </div>
                         <div id="upgrade_option4">
@@ -75,7 +75,7 @@
                                 <img src="/phpmotors/images/upgrades/hub-cap.jpg" alt="Hub Caps">
                             </div>
                             <a href="#">
-                                <p id="upgrade_link">Hub Caps</p>
+                                <p>Hub Caps</p>
                             </a>
                         </div>
                     </div>
@@ -88,6 +88,5 @@
         </footer>
     </div>
 </body>
-<script></script>
 
 </html>
