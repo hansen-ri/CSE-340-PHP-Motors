@@ -84,7 +84,10 @@
         </main>
         <hr>
         <footer>
-            <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/snippets/footer.php'; ?>
+            <?php 
+            require_once $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/snippets/footer.php'; 
+            echo "<p>Last Modified: " . date ("F d Y H:i:s.", getlastmod()) . "</p>"
+            ?>
         </footer>
     </div>
 </body>

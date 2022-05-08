@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/phpmotors/css/index.css" media="screen">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fugaz+One&family=Goldman&display=swap" rel="stylesheet">
-    <title>Template</title>
+    <title>Server Error | PHP Motors</title>
 </head>
 <body>
     <div id="content">
@@ -14,7 +14,8 @@
         <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/snippets/header.php'; ?> 
         </header>
         <main>
-            <h2>Content Title Here</h2>
+            <h2>Server Error</h2>
+            <p>Sorry our server seems to be experiencing some technical difficulties. Please check back later.</p>
         </main>
         <hr>
         <footer>
