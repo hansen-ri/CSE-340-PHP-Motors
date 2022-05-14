@@ -15,6 +15,11 @@
         <header>
             <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/snippets/header.php'; ?>
         </header>
+        <nav>
+            <?php 
+            echo $navList;
+            ?>
+        </nav>
         <main>
             <h2>Welcome to PHP Motors!</h2>
             <div id="hero_div">

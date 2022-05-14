@@ -71,6 +71,29 @@ main {
     font-family: 'Goldman', cursive;
 }
 
+#account_btn > a:hover {
+    color: #8d8d8d;
+}
+
+#account_btn > a {
+    text-decoration: none;
+    color: #3a3a3a;
+}
+
+#register_link {
+    text-decoration: underline;
+    color: #378AD2;
+}
+
+.required {
+    color: red;
+    white-space: nowrap
+}
+
+/* .account_div {
+    line-height: ;
+} */
+
 h2 {
     margin-bottom: 0;
 }

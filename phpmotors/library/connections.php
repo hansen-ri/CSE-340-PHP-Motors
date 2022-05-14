@@ -6,7 +6,7 @@
 function phpmotorsConnect()
 {
     $server = 'localhost';
-    $dbname = 'phpmotor';
+    $dbname = 'phpmotors';
     $username = 'iClient';
     $password = 'KU*nfapR01tfIIqt';
     $dsn = "mysql:host=$server;dbname=$dbname";
@@ -14,17 +14,12 @@ function phpmotorsConnect()
 
     try {
         $link = new PDO($dsn, $username, $password, $options);
-        if (is_object($link)) {
-            echo 'It worked!';
-        }
-        echo "here";
         return $link;
     } catch (PDOException $e) {
         // echo "It didn't work, error: " . $e -> getMessage();
-        echo "I'm here.";
         header('Location: /phpmotors/view/500.php');
         exit;
     }
 }
-phpmotorsConnect();
+// phpmotorsConnect();
 ?>

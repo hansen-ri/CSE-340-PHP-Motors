@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/phpmotors/css/index.css" media="screen">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fugaz+One&family=Goldman&display=swap" rel="stylesheet">
-    <title>Template</title>
+    <title>Login | PHP Motors</title>
 </head>
 <body>
     <div id="content">
@@ -14,11 +14,23 @@
         <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/snippets/header.php'; ?> 
         </header>
         <nav>
-            <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/phpmotors/snippets/navbar.php';
+            <?php 
+            echo $navList;
             ?>
         </nav>
         <main>
-            <h2>Content Title Here</h2>
+            <div class="account_div">
+                <h2>Login</h2>
+                <p class="required">* indicates a required field</p>
+                <form>
+                    <label for="username">Username</label><span class="required">*</span><br>
+                    <input type="text" id="username" name="username" value="John_Doe10"><br>
+                    <label for="password">Password</label><span class="required">*</span><br>
+                    <input type="text" id="password" name="password" value="J0hn_Do3"><br>
+                    <a href=""><button>Log In</button></a>
+                </form>
+                <p>Don't have an account? Click <a id="register_link" href="/phpmotors/accounts?action=registration">here</a> to register!</p>
+            </div>
         </main>
         <hr>
         <footer>
